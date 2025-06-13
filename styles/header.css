@@ -1,0 +1,71 @@
+.header {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+a h1 {
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header__title {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.header__auth {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.header__link {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.header__link:hover {
+    opacity: 0.8;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.header__separator {
+    opacity: 0.7;
+}
+
+.user{
+    display: flex;
+}
+.user p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.user p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+.user p a:hover{
+    opacity: 0.8;
+    background: rgba(255, 255, 255, 0.1);
+}
