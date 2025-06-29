@@ -1,0 +1,75 @@
+/* Общие стили для шапки сайта */
+.site-header {
+    background-color: #ffffff; /* Цвет фона */
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Контейнер для центрирования содержимого */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Обертка внутри шапки */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Логотип */
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333; /* Цвет текста логотипа */
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.logo-icon {
+    font-size: 1.5em; /* Размер иконки */
+    margin-right: 8px;
+}
+
+/* Меню пользователя */
+.user-nav {
+}
+
+.user-menu {
+    list-style: none;
+    display: flex;
+    gap: 15px; /* Расстояние между пунктами меню */
+}
+
+.user-menu li {
+}
+
+.user-menu a {
+    text-decoration: none;
+    color: #007BFF; /* Цвет ссылок */
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.user-menu a:hover {
+    background-color: #f0f0f0; /* Фон при наведении */
+    color: #0056b3; /* Цвет при наведении */
+}
+
+/* Специальные стили для кнопок входа и регистрации (если нужно) */
+.login-btn,
+.register-btn {
+    font-weight: normal; /* Можно изменить по желанию */
+}
